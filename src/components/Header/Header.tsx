@@ -1,11 +1,11 @@
 import { Button } from '../ui/button';
-import { MdAccountCircle } from "react-icons/md";
+import { MdAccountCircle, MdDehaze } from "react-icons/md";
 export default function Header() {
   return (
     <header>
       <div className="w-4/5 flex justify-between m-auto pt-5">
         <div className="flex items-center gap-x-3 font-medium">
-          <span>|||</span>
+          <MdDehaze/>
           <h3 className="text-lg font-bold sm:text-4xl">
             Uber <span className="font-bold">Eats</span>
           </h3>
